@@ -1,0 +1,19 @@
+Author: Stephen Meckley
+Initial Date: 1/13/2012
+Synopsis: Batch file to automate setup of Cygwin from the command line
+Description:
+   This batch file is meant to be kept in a Dropbox folder so that on
+   a new machine we can run one script and a very very usable cygwin
+   installation is available after a few minutes with minimal
+   interaction from the user.
+Features:
+   - Auto start after instal and after windows starts
+   - Creates a softlinks to Dropbox linux files (~/.vimrc ~/.bashrc ~/bin etc.)
+   - Installs apt-cyg which is a very easy to use command line package management tool.
+   - Sets up for ssh access out of the box.
+Dependecies:
+   - Internet connection
+   - Dropbox pre-installed in the default windows location c:\Dropbox
+   - cygwin-startup.bat
+   - getWebFile1.vbs
+   - install-cygwin.bat
