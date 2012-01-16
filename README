@@ -1,6 +1,6 @@
 Author: stephenmm
 Initial Date: 1/13/2012
-Synopsis: Batch file to automate setup of Cygwin from the command line
+Synopsis: Batch file to automate the install of Cygwin
 Description:
    This batch file is meant to be kept in a Dropbox folder so that on
    a new machine we can run one script and a very very usable cygwin
